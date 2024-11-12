@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --topo: #001097;
+}
+
+header.topo {
+  background-color: var(--topo);
+  div.topo-edit {
+    display: flex;
+    img.logo {
+        border-radius: 70px;
+        margin: 20px;
+    }
+    h1.titulo {
+        margin: 0;
+    }
+  }
+}
